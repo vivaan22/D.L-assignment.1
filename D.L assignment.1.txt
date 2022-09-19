@@ -1,0 +1,73 @@
+1.
+the additive effect of several electrical impulses on a neuromuscular junction, 
+the junction between a nerve cell and a muscle cell.
+ Individually the stimuli cannot evoke a response, but collectively they can generate a response.
+These certain conditions which differ neuron to neuron are called Threshold. For example, 
+if the input X1 into the first neuron is 30 and X2 is 0:
+ This neuron will not fire, since the sum 30+0 = 30 is not greater than the threshold i.e 100.
+2.
+A step function is a function like that used by the original Perceptron.
+ The output is a certain value, A1, if the input sum is above a certain threshold and
+ A0 if the input sum is below a certain threshold. The values used by the Perceptron were A1 = 1 and A0 = 0.
+3.
+Simplified model of real neurons, known as Threshold Logic Unit. A set of synapsesc (i.e connections)
+ brings the activations from the other neurons. A processing unit sums the inputs,
+ the applies the non-linear activation funcation (i.e threshold / transfer function).
+4.
+MADALINE. MADALINE (Many ADALINE) is a three-layer (input, hidden, output), fully connected, 
+feed-forward artificial neural network architecture for classification that uses ADALINE units in its hidden
+  and output layers, 
+i.e. its activation function is the sign function. The three-layer network uses memistors.
+5.
+ The single-layer perceptrons is that the constraints limit the algorithm's ability to accurately classify data.
+ Specifically, the primary constraint is that the data must be linearly separable.
+ issues related to the training data or model fit are the likeliest culprit for future failure.
+6.
+Clearly not all decision problems are linearly separable: they cannot be solved using a linear decision boundary. 
+Problems like these are termed linearly inseparable.
+Hidden layers allow for the function of a neural network to be broken down into specific transformations of the data. 
+7.
+The XOr problem is that we need to build a Neural Network (a perceptron in our case) to produce
+ the truth table related to the XOr logical operator. This is a binary classification problem. 
+Hence, supervised learning is a better way to solve it. In this case, we will be using perceptrons.
+8.
+To built a multi layered perceptron with the following weights and it predicts the output of a XOr logical operator.
+...
+Using the formulae for AND, NOT and OR gates, we get:
+h1 = σ((1-x1) + x2) = σ((-1)x1 + x2 + 1)
+h2 = σ(x1 + (1-x2)) = σ(x1 + (-1)x2 + 1)
+y = σ(h1 + h2) = σ(h1 + h2 + 0)
+9.
+The output layer is formed when different weights are applied to input nodes
+ and the cumulative effect per node is taken.After this,
+ the neurons collectively give the output layer to compute the output signals.
+10.
+ANN architecture is based on the structure and function of the biological neural network.
+ Similar to neurons in the brain, ANN also consists of neurons which are arranged in various layers.
+11.
+The backpropagation algorithm performs learning on a multilayer feed-forward neural network.
+ It iteratively learns a set of weights for prediction of the class label of tuples.
+ A multilayer feed-forward neural network consists of an input layer, one or more hidden layers, and an output layer.
+Below are the steps involved in Backpropagation: Step – 1: Forward Propagation. Step – 2: Backward Propagation. Step – 3: Putting all the values together and calculating the updated weight value.
+...
+The above network contains the following:
+two inputs.
+two hidden neurons.
+two output neurons.
+two biases.
+12.
+Neural Networks have the ability to learn by themselves and produce the output that is not limited to the input provided 
+to them. The input is stored in its own networks instead of a database,
+ hence the loss of data does not affect its working.
+13.
+1.Biological neurons, consisting of a cell body, axons,
+ dendrites and synapses, are able to process and transmit neural activation.
+2.The rectified linear activation function or ReLU for short is a piecewise linear function that will output
+ the input directly if it is positive, otherwise, it will output zero.
+3.A single-layer neural network represents the most simple form of neural network, in which there is only one layer of input nodes that send weighted
+ inputs to a subsequent layer of receiving nodes, or in some cases, one receiving node.
+4.Gradient descent is an optimization algorithm which is commonly-used to train machine learning models 
+and neural networks. 
+5.A recurrent neural network is a type of artificial neural network commonly used in speech recognition 
+and natural language processing. Recurrent neural networks recognize data's sequential characteristics
+ and use patterns to predict the next likely scenario.
